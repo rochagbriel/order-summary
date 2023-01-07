@@ -126,3 +126,93 @@ footer {
     text-align: center;
 }
 
+@media only screen and (max-width: 375px) {
+
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-color: hsl(224 100% 94%);
+    }
+
+    main {
+        margin-top: 3rem;
+        height: 35rem;
+        width: 20rem;
+    }
+
+    main img {
+        width: 20rem;
+    }
+
+    .price {
+        justify-content: space-between;
+        width: 17rem;
+        height: 5rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    .price a{
+        margin: 1rem;
+        font-size: 0.8rem;
+        text-decoration: underline;
+        color: hsl(255, 100%, 50%);
+    }
+    
+    .price a:hover {
+        color: hsl(244, 70%, 49%);
+        transition: 1s;
+    }
+
+    .price img {
+        margin: 1rem 0 1rem 1rem;
+        width: 3rem;
+    }
+    
+    #description h2, p{
+        margin-bottom: 0.3rem;
+        font-size: 0.9rem;
+    }
+    
+    #text {
+        margin-top: 2rem;
+        margin-bottom: 1.2rem;
+        text-align: center;
+    }
+    
+    #text p {
+        font-size: 0.95rem;
+        margin: 0.8rem 2rem;
+        line-height: 1.5rem;
+    }
+    
+    .buttons {
+        margin: 1.8rem 3rem;
+    }
+    
+    #proceed {
+        background-color: rgb(50, 35, 255);
+        height: 3rem;
+        width: 17rem;
+    }
+    
+    #proceed:hover {
+        background-color: hsl(244, 84%, 69%);
+        transition: 1s;
+        scale: 101%;
+    }
+    
+    #proceed:active {
+        transition: 3ms;
+        scale: 100%;
+        background-color: hsl(244, 84%, 50%);
+    }
+    
+    #cancel {
+        margin-top: 1.5rem;
+        color: hsl(227, 19%, 53%);
+    }
+    
+}
