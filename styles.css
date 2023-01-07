@@ -88,6 +88,11 @@ p {
     color: hsl(225, 100%, 90%);
 }
 
+.price a:hover {
+    color: hsl(244, 84%, 69%);
+    transition: 1s;
+}
+
 #description {
     margin: 1rem;
     display: flex;
@@ -119,6 +124,7 @@ p {
 }
 
 #proceed {
+    cursor: pointer;
     border-style: none;
     border-radius: 0.7rem;
     color: aliceblue;
@@ -127,15 +133,28 @@ p {
     width: 22rem;
 }
 
+#proceed:hover {
+    background-color: hsl(244, 84%, 69%);
+    transition: 1s;
+    scale: 101%;
+}
+
+#proceed:active {
+    transition: 3ms;
+    scale: 100%;
+    background-color: hsl(244, 84%, 50%);
+}
+
 #cancel {
-    margin-top: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
     border-style: none;
     border-radius: 0.7rem;
     background-color: white;
-    height: 3rem;
-    width: 22rem;
 }
 
 footer {
     margin-top: 2rem;
+    text-align: center;
 }
+
