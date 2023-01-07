@@ -49,14 +49,15 @@ p {
     border-radius: 1rem;
 }
 
-.price a {
+.price button {
     margin-left: 5rem;
     font-size: 0.9rem;
-    text-decoration: none;
+    border-style: none;
+    background-color: transparent;
     color: hsl(225, 100%, 90%);
 }
 
-.price a:hover {
+.price button:hover {
     color: hsl(244, 84%, 69%);
     transition: 1s;
 }
@@ -164,14 +165,14 @@ footer {
         font-size: 1.4rem;
     }
     
-    .price a{
+    .price button{
         margin: 1rem;
         font-size: 0.8rem;
         text-decoration: underline;
         color: hsl(255, 100%, 50%);
     }
     
-    .price a:hover {
+    .price button:hover {
         color: hsl(244, 70%, 49%);
         transition: 1s;
     }
