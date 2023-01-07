@@ -92,6 +92,8 @@ p {
 }
 
 #proceed {
+    font-size: 1rem;
+    font-weight: 700;
     cursor: pointer;
     border-style: none;
     border-radius: 0.7rem;
@@ -114,11 +116,19 @@ p {
 }
 
 #cancel {
+    font-size: 1rem;
+    font-weight: 700;
     cursor: pointer;
     margin-top: 2rem;
     border-style: none;
     border-radius: 0.7rem;
+    color: hsl(227, 19%, 53%);
     background-color: white;
+}
+
+#cancel:hover {
+    transition: 5ms;
+    color: hsl(0, 71%, 65%);
 }
 
 footer {
